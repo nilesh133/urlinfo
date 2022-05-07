@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-process.env.PORT || 5000;
+const port = process.env.PORT || 5000;
 const urlMetadata = require('url-metadata')
 
 app.use(express.json());
